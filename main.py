@@ -1,10 +1,10 @@
 import tkinter as tk
 from tkinter import messagebox
-from playfair import playfair_encrypt, playfair_decrypt
-from caesar import caesar_encrypt, caesar_decrypt
-from vigenere import vigenere_encrypt, vigenere_decrypt
-from autokey import autokey_encrypt, autokey_decrypt
-from rsa import generate_keys, rsa_encrypt, rsa_decrypt
+from ciphers.playfair import playfair_encrypt, playfair_decrypt
+from ciphers.caesar import caesar_encrypt, caesar_decrypt
+from ciphers.vigenere import vigenere_encrypt, vigenere_decrypt
+from ciphers.autokey import autokey_encrypt, autokey_decrypt
+from ciphers.rsa import generate_keys, rsa_encrypt, rsa_decrypt
 
 class App:
     def __init__(self, master):
